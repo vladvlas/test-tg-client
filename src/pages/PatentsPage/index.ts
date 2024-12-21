@@ -1,1 +1,0 @@
-export { PatentsPage } from "./PatentsPage";

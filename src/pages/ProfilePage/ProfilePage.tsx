@@ -7,11 +7,6 @@ import styles from "./ProfilePage.module.scss";
 
 export const ProfilePage: React.FC = () => {
     const userAuthData = useSelector(getUserAuthData);
-    const isAuth = Boolean(userAuthData);
-
-    // if (!isAuth) {
-    //     return <Navigate to={"/authorization"} />;
-    // }
 
     return (
         <div className={styles.container}>

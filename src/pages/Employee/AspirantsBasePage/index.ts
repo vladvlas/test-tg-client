@@ -1,1 +1,0 @@
-export { AspirantsBasePage } from "./AspirantsBasePage";

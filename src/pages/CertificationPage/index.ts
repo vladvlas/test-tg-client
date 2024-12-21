@@ -1,1 +1,0 @@
-export { CertificationPage } from "./CertificationPage";
