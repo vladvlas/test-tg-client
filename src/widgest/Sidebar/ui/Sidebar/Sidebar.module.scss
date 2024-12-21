@@ -1,0 +1,12 @@
+.container {
+    padding: 10px;
+    height: calc(100vh - 20px);
+    width: 300px;
+    min-width: 300px;
+    background-color: #f4f5f7;
+}
+
+.links {
+    display: grid;
+    grid-row-gap: 10px;
+}

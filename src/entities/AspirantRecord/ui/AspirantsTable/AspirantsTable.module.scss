@@ -1,0 +1,23 @@
+.content{
+  padding: 30px 0 20px;
+}
+
+.record {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.descr {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.row {
+  cursor: pointer;
+}

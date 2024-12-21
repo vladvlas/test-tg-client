@@ -1,0 +1,1 @@
+export { MagazineCertificatesPage } from "./MagazineCertificatesPage";

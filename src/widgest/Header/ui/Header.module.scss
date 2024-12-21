@@ -1,0 +1,8 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 10px;
+    height: 70px;
+    padding: 10px;
+    background-color: #1e632f;
+}

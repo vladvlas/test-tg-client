@@ -1,0 +1,14 @@
+.container {
+
+}
+
+.error-container {
+  grid-column: span 3;
+}
+
+.errorText {
+  padding: 10px 5px;
+  color: var(--color-red-primary);
+  font-weight: 500;
+  font-size: 16px;
+}

@@ -1,0 +1,1 @@
+export { AspirantsBasePage } from "./AspirantsBasePage";

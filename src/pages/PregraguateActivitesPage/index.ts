@@ -1,0 +1,1 @@
+export { PregraguateActivitesPage } from "./PregraguateActivitesPage";

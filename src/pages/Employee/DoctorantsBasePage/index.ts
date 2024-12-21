@@ -1,0 +1,1 @@
+export { DoctorantsBasePage } from "./DoctorantsBasePage";
