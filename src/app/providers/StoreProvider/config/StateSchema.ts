@@ -1,14 +1,8 @@
-import { UserSchema } from "entities/User";
-import { LoginSchema } from "features/AuthByUserName";
-import { ProfileSchema } from "entities/Profile";
 import { AxiosInstance } from "axios";
-import { PublicationSchema } from "entities/Publication";
+import { DevicesSchema } from "entities/Device";
 
 export interface StateSchema {
-    user: UserSchema;
-    loginForm?: LoginSchema;
-    profile?: ProfileSchema;
-    publications?: PublicationSchema;
+    devices: DevicesSchema,
 }
 
 export interface ThunkExtraArg {
