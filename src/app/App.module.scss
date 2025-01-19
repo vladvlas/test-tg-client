@@ -111,5 +111,28 @@
     & span {
         margin-left: 8px;
         color: #5A60FF;
+        cursor: pointer;
     }
 }
+
+.background {
+    height: 90vh;
+    background: linear-gradient(0deg, #9C9C9C, #9C9C9C), rgba(37, 37, 37, 0.55);
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(25px);
+    //border-radius: 32px 32px 0px 0px;
+}
+
+[data-rsbs-has-header='false'] [data-rsbs-header] {
+    background: linear-gradient(0deg, #9C9C9C, #9C9C9C), rgba(37, 37, 37, 0.55);
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(25px);
+}
+
+[data-rsbs-has-footer='false'] [data-rsbs-content] {
+    background: linear-gradient(0deg, #9C9C9C, #9C9C9C), rgba(37, 37, 37, 0.55);
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(25px);
+}
+
+
