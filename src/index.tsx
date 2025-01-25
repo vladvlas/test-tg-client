@@ -2,7 +2,7 @@ import { render } from "react-dom";
 import { App } from "app/App";
 import { BrowserRouter } from "react-router-dom";
 import { StoreProvider } from "app/providers/StoreProvider";
-import { init, miniApp } from "@telegram-apps/sdk";
+import { init, miniApp, miniAppHeaderColor } from "@telegram-apps/sdk";
 
 
 const initializeTelegramSDK = async () => {
@@ -12,6 +12,7 @@ const initializeTelegramSDK = async () => {
 
         if (miniApp.ready.isAvailable()) {
             await miniApp.ready();
+            miniApp.setHeaderColor('#fcb69f')
             console.log('Mini App готово');
         }
 
